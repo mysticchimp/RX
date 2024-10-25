@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Results</title>
+  </head>
+  <body>
+    <h1>Roster Staffing</h1>
+    {{ roster_table | safe }}
+    
+    <h1>Difference (Roster - Erlang)</h1>
+    {{ difference_table | safe }}
+    
+    <a href="/">Go Back</a>
+  </body>
+</html>
